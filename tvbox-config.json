@@ -1,0 +1,99 @@
+{
+  "sites": [
+    {
+      "key": "maoyan",
+      "name": "猫眼资源",
+      "type": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "360zy",
+      "name": "360资源",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "baidu",
+      "name": "百度资源",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "iqiyi",
+      "name": "爱奇艺资源站",
+      "type": 1,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "baofeng",
+      "name": "暴风资源",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "modu",
+      "name": "魔都资源",
+      "type": 1,
+      "api": "https://www.mdzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    }
+  ],
+  "lives": [
+    {
+      "name": "Guovin综合(央视/卫视/地方)",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
+      "epg": "https://epg.112114.xyz/pp.xml",
+      "playerType": 1
+    },
+    {
+      "name": "CCTV备用",
+      "type": 0,
+      "url": "https://peterhchina.github.io/iptv/CCTV-V4.m3u",
+      "playerType": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "默认解析",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "解析2",
+      "type": 0,
+      "url": "https://jx.yparse.com/index.php?url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "bilibili",
+    "renrenmi"
+  ]
+}
